@@ -1,7 +1,13 @@
 .c-header{
-	height: 22vh;
+	height: 24vh;
 	color: #fff;
 	background-image: url(./pattern-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 	text-align: center;
 	padding: 1rem;
+}
+
+.c-header-title{
+	font-weight:  500;
 }

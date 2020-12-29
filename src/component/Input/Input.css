@@ -1,0 +1,23 @@
+.c-header-input{
+	display: flex;
+	justify-content: center;
+	margin-top: 17px;
+}
+
+.c-header-input span{
+	background-color: hsl(0, 0%, 17%);
+	border-radius: 0px 8px 8px 0px;
+	width: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.c-header-input-elem{
+	border-radius: 8px 0px 0px 8px;
+	border: none;
+	padding: .7rem 1rem;
+	max-width: 320px;
+	outline-style: none;
+	width: 100%;
+}
