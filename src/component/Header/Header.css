@@ -1,5 +1,6 @@
 .c-header{
-	height: 24vh;
+	position: relative;
+	height: 28vh;
 	color: #fff;
 	background-image: url(./pattern-bg.png);
 	background-size: cover;

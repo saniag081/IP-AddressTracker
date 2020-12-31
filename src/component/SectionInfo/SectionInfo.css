@@ -1,0 +1,37 @@
+.u-color-gray{
+	color: hsl(0, 0%, 59%);
+	font-size: 12px;
+}
+
+.c-info{
+	position: absolute;
+	color: #000;
+	z-index: 1001;
+	top: 136px;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.c-info-container{
+	background: #fff;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(135px, 225px));
+	justify-content: space-around;
+	max-width: 980px;
+	width: 100%;
+	margin: auto;
+	padding: 1.5rem;
+	border-radius: 15px;
+}
+
+.c-info-container-box{
+	text-align: start;
+	border-right: 1px solid  hsl(0, 0%, 59%);
+	padding: 0 .7rem;
+}
+
+.c-info-container-box:last-child{
+	border: none;
+}
