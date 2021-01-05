@@ -5,6 +5,7 @@
 
 .c-info{
 	position: absolute;
+	padding: 0 1rem;
 	color: #000;
 	z-index: 1001;
 	top: 136px;
@@ -26,10 +27,32 @@
 	border-radius: 15px;
 }
 
+@media screen and (max-width: 981px){
+	.c-info{
+		top: 124px;
+	}
+	.c-info-container{
+		grid-template-columns: 1fr;
+		justify-content: center;
+		max-width: 380px;
+		padding: .8rem .5rem;
+	}
+}
+
 .c-info-container-box{
 	text-align: start;
 	border-right: 1px solid  hsl(0, 0%, 59%);
 	padding: 0 .7rem;
+}
+
+@media screen and (max-width: 981px){
+	.c-info-container-box{
+		border: none;
+		text-align: center;
+	}
+	.c-info-container-box h3{
+		margin: .5rem 0;
+	}
 }
 
 .c-info-container-box:last-child{
