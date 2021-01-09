@@ -1,11 +1,19 @@
 import './App.css';
+import { useEffect } from 'react'
 import Map from './component/Map/Map'
 import Header from './component/Header'
 import useRequest from './hooks/useRequest'
+import { setDataApi } from './redux/reducers'
+import { useDispatch } from 'react-redux'
 
 function App() {
   const response = useRequest()
-  console.log(response)
+  const dispatch = useDispatch()
+
+  useEffect(() => {
+    dispatch(setDataApi(response))
+  })
+
   return (
     <div className="App">
       <Header />

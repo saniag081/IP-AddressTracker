@@ -3,10 +3,10 @@ import { createSlice } from '@reduxjs/toolkit'
 
 const dataApi = createSlice({
 	name: 'dataApi',
-	initialState: [],
+	initialState: {},
 	reducers: {
 		setDataApi(state, action) {
-			return state.push(action.payload)
+			return state = action.payload
 		}
 	},
 })
