@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     dispatch(setDataApi(response))
-  })
+  }, [response, dispatch])
 
   return (
     <div className="App">
