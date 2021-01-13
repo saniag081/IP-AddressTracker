@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react'
 export default function SectionInfo() {
 	const [getData, setData] = useState({})
 	const { dataApi } = useSelector(data => data)
-	console.log(getData)
+
 	useEffect(() => {
 		setData(dataApi)
 	},[dataApi])
